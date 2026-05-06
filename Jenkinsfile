@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_USER  = 'bhawnakushwaha123'
-        IMAGE_NAME      = 'YOUR_IMAGE_NAME'
+        IMAGE_NAME      = 'jenkins_prac'
         IMAGE_TAG       = "v${BUILD_NUMBER}"
         FULL_IMAGE      = "${DOCKERHUB_USER}/${IMAGE_NAME}:${IMAGE_TAG}"
         CONTAINER_NAME  = 'my-python-container'
